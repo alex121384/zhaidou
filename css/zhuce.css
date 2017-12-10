@@ -1,0 +1,68 @@
+body,html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.login_bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.login{
+    width: 100%;
+    height: 800px;
+    background: #fff;
+}
+.login_center{
+    width: 100%;
+    height: 680px;
+    text-align: center;
+}
+
+.input_box{
+    width: 620px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+    border: 2px solid #9a9a9a;
+}
+.input_box input{
+    width: 600px;
+    height: 100px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 28px;
+}
+.tishi{
+    width: 300px;
+    height: 34px;
+    font-size: 28px;
+    color: #f00;
+    float: left;
+    margin-left: 120px;
+    display: none;
+}
+.btn{
+    width: 400px;
+    height: 80px;
+    margin: 75px 115px;
+    text-align: center;
+    line-height: 80px;
+    border: 2px solid #59c4ff;
+    background: #59c4ff;
+    font-size: 32px;
+    float: left;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}

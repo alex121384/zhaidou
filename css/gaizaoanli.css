@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+#box{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    margin: 0 auto ;
+    max-width: 640px;
+}
+/*头部*/
+.head{
+    width: 100%;
+    height: 85px;
+    background: white;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    line-height: 85px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+.head_all{
+    position: relative;
+    overflow: hidden;
+}
+.head p{
+    width: 260px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+}
+.head i{
+    display: inline-block;
+    width: 54px;
+    height: 85px;
+    float: left;
+    background: url("../img/prev.png")center no-repeat;
+}
+
+/*案例*/
+.anli{
+    width: 100%;
+    margin-top: 20px;
+    background: white;
+    overflow: hidden;
+}
+.anli_al{
+    width: 100%;
+    margin-top: 65px;
+    overflow: hidden;
+}
+.anli_al>li{
+    list-style: none;
+    width: 100%;
+    height: 468px;
+    background: white;
+}
+.anli_al>li img{
+    width: 100%;
+}
+.anli_al>li h1{
+    font-weight: 700;
+    color: #333;
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.anli_al>li span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.s1{
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    display: block;
+    font-size: 24px;
+}
+.s2{
+    color: #999;
+    display: block;
+    font-size: 24px;
+}
+.jiazai{
+    width: 310px;
+    height: 64px;
+    font-size: 24px;
+    margin: 0 auto 96px;
+    border-radius: 25px;
+    line-height: 64px;
+    text-align: center;
+    border: 1px solid #d9dde1;
+    color: #666;
+}

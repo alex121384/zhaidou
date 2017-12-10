@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+#box{
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+/*顶部*/
+.head,.head1{
+    width: 100%;
+    height: 343px;
+    overflow: hidden;
+}
+.head1 img{
+    width: 100%;
+}
+.head1{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+/*客户*/
+.kehu{
+    width: 100%;
+    height: 134px;
+    background: white;
+}
+.kehu_in{
+    width: 90%;
+    height: 85px;
+    margin: 25px 5%;
+    float: left;
+}
+.kehu_in img{
+    width: 85px;
+    height: 85px;
+    float: left;
+}
+.kehu_in p{
+    width: 470px;
+    height: 85px;
+    float: left;
+    font-size: 32px;
+    line-height: 85px;
+}
+
+
+/*我的*/
+.my{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.dingdan{
+    width: 90%;
+    height: 76px;
+    border-bottom: 2px solid #f6f6f6;
+    margin: 0px 5%;
+    font-size: 24px;
+    background: white;
+}
+.dingdan img{
+    width: 31px;
+    height: 31px;
+    float: left;
+    margin-top: 22px;
+}
+.dingdan p{
+    width: 520px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.dingdan span{
+    float: right;
+    color: #999;
+}
+.my ul{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.my ul li{
+    list-style: none;
+    float: left;
+    width: 212px;
+    height: 168px;
+    border-right: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+.myimg{
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+}
+.myimg img{
+    width: 37px;
+    height: 37px;
+}
+.myp{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/*地址*/
+.dizhi{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    height: auto;
+    background: white;
+}
+
+/*底部*/
+#foot{
+    width: 100%;
+    height: 90px;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
